@@ -1,5 +1,18 @@
-<ul>
+<ul class="projects">
   <li *ngFor="let project of projects">
-    {{project.title}}
+    <div class="item">
+      <a href="http://projects.niklenburg.com/{{project.title}}/"
+         title="projects.niklenburg.com/{{project.title}}"
+         target="_blank"
+         [class.light]="project.light"
+         [class.full]="project.full"
+         [class.loaded]="project.loaded || project.fail">
+        <img src="http://projects.niklenburg.com/{{project.title}}/img/logo.png"
+             *ngIf="!project.fail"
+             (load)="onImgLoad(project)"
+             (error)="onImgError(project)">
+        <span *ngIf="project.fail">{{project.title}}</span>
+      </a>
+    </div>
   </li>
 </ul>

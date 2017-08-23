@@ -1,0 +1,73 @@
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.projects {
+  list-style: none;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  li {
+    float: left;
+    width: 12.5%;
+  }
+}
+
+.item {
+  position: relative;
+  height: 0;
+  padding-bottom: 100%;
+
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font: 0/0 a;
+    color: #afafaf;
+    transform: scale(0);
+    transition: transform .2s ease-in-out;
+
+    &.loaded {
+      transform: scale(1);
+    }
+
+    &.light {
+      background: #afafaf;
+    }
+
+    &.full {
+      padding: 0;
+    }
+
+    &>*, &:before {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    &:before {
+      content: "";
+      height: 100%;
+    }
+
+    &>* {
+      font: 13px/normal sans-serif;
+      white-space: normal;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+}

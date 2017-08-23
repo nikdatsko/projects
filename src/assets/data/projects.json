@@ -15,22 +15,26 @@
     "title": "azovtsev"
   },
   {
-    "title": "belldecor"
+    "title": "belldecor",
+    "full": true
   },
   {
-    "title": "belprofmet"
+    "title": "belprofmet",
+    "light": true
   },
   {
     "title": "borodino"
   },
   {
-    "title": "brandwifi"
+    "title": "brandwifi",
+    "light": true
   },
   {
     "title": "britton"
   },
   {
-    "title": "bulgakoff"
+    "title": "bulgakoff",
+    "full": true
   },
   {
     "title": "cats"
@@ -42,10 +46,12 @@
     "title": "consultant"
   },
   {
-    "title": "craft"
+    "title": "craft",
+    "full": true
   },
   {
-    "title": "detopt"
+    "title": "detopt",
+    "full": true
   },
   {
     "title": "eurostyle"
@@ -57,7 +63,8 @@
     "title": "fashionspa"
   },
   {
-    "title": "gladenko"
+    "title": "gladenko",
+    "light": true
   },
   {
     "title": "goritbilet"
@@ -66,16 +73,19 @@
     "title": "hipcam"
   },
   {
-    "title": "hizmet"
+    "title": "hizmet",
+    "full": true
   },
   {
     "title": "igandika"
   },
   {
-    "title": "imgsrc"
+    "title": "imgsrc",
+    "light": true
   },
   {
-    "title": "indfin"
+    "title": "indfin",
+    "full": true
   },
   {
     "title": "kuhni-landing"
@@ -87,7 +97,8 @@
     "title": "ligaatletiki"
   },
   {
-    "title": "ligovskij"
+    "title": "ligovskij",
+    "light": true
   },
   {
     "title": "lmc"
@@ -105,10 +116,16 @@
     "title": "nyamnyam"
   },
   {
-    "title": "prograffiti"
+    "title": "otdogroup",
+    "light": true
   },
   {
-    "title": "reali"
+    "title": "prograffiti",
+    "light": true
+  },
+  {
+    "title": "reali",
+    "full": true
   },
   {
     "title": "red-yar"
@@ -117,7 +134,8 @@
     "title": "ro-cosmos"
   },
   {
-    "title": "ro-landing"
+    "title": "ro-landing",
+    "full": true
   },
   {
     "title": "ro-seo"
@@ -129,19 +147,19 @@
     "title": "seemedia"
   },
   {
-    "title": "slider"
+    "title": "soft-landing-2",
+    "light": true
   },
   {
-    "title": "soft-landing-2"
-  },
-  {
-    "title": "soft-landing"
+    "title": "soft-landing",
+    "light": true
   },
   {
     "title": "softformula"
   },
   {
-    "title": "stomatologi"
+    "title": "stomatologi",
+    "light": true
   },
   {
     "title": "telegrafru"
@@ -150,10 +168,12 @@
     "title": "toyspace"
   },
   {
-    "title": "vagan"
+    "title": "vagan",
+    "light": true
   },
   {
-    "title": "videi"
+    "title": "videi",
+    "full": true
   },
   {
     "title": "vltb"
@@ -162,7 +182,8 @@
     "title": "vsmysle"
   },
   {
-    "title": "washe"
+    "title": "washe",
+    "light": true
   },
   {
     "title": "zorkin"
